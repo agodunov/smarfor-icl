@@ -70,7 +70,7 @@ $$
 pr_0 = \frac {Price_{today} - MA_{20}}{MA_{20}} 
 $$
 
-The testing and training data split is ususally as 80% to 20%. The data were checked on multicolinearity via variance inflation factor. In result some indicators was not accepted in dataset.
+The testing and training data split is usually as 80% to 20%. The data were checked on multicolinearity via variance inflation factor. In result some indicators was not accepted in dataset.
 
 ## MODELS 
 All models accept the dataset.xlsx wich stores Pandas dataframe with 30 features from economic and stock indicators and two last columns with predictors: the future gradient of 20 days price moving average and the sign of this gradient. The same file can be used for classification or regression modelling. As a training exercise, I had to pickup three models from the program I studied, so my choice was the following:
