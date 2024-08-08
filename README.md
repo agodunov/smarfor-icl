@@ -106,7 +106,7 @@ The analysis of the importance indicators of the model features is very interest
 
 These are very much Leading Economic Indicators used by research from Conference Boards and other leading economists which are widely used in forecasting, which is indirect evidence that the DT model works correctly.
 
-### Neurol Network 
+### Neural Network 
 
 The neural network with the optimal architecture 28-27-22-19 shows an incredibly good result: on training data, the accuracy was 98%, and the accuracy of market prediction on test data was 95.1%, which indirectly indicates that the neural network has good generalizability and phenomenally high forecasting accuracy. The forecast results of this network were used to emulate trading.
 
