@@ -33,7 +33,7 @@ For clarity, I have provided a picture below of the broad index Sp500 of America
 
 Since many models for market forecasting are not accurate, I will use another simple indicator of Accuracy - the percentage of times the model guess the direction of the market movement correctly. The Accuracy is calculated by comparing the sign of the MA20 gradient with the real market and from the point of view of machine learning is a common classification metric.
 
-For more technical details, read the code itself with comments and pictures. I choose to implement Pandas dataframe and save data in excel which I find convenient for the data analysis.
+For more technical details, read the code itself with comments and pictures. I chose to implement Pandas dataframe and save data in excel which I find convenient for the data analysis.
 
 ### Here I must make one important disclaimer: 
 The data I use from the Federal Treasury is delayed by a month or two, so the solution provided is not directly suitable for speculating on the market. At the very least, you need to access the most current data, and that requires a paid subscription. That's why, in reality, the question of project will sound a bit different: **Is it possible to predict market behaviour in the medium term using publicly available economic data and trade indicators?**
