@@ -1,6 +1,6 @@
 # STOCK MARKET FORECASTING
 
-This small educational project was created during my studies of [ML/AI at Imperial College Business School](https://www.imperial.ac.uk/business-school/executive-education/technology-analytics-data-science/professional-certificate-machine-learning-and-artificial-intelligence-programme/online//). 
+This small educational project was created during my studies in [ML/AI at Imperial College Business School](https://www.imperial.ac.uk/business-school/executive-education/technology-analytics-data-science/professional-certificate-machine-learning-and-artificial-intelligence-programme/online//). 
 
 I was free to choose any task where I could demonstrate the material I had learned using real data. The availability of verified data for the stock market and economy, as well as the fact that I had once done a similar study about 20 years ago, predetermined my choice.
 
