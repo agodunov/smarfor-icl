@@ -1,5 +1,3 @@
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 # STOCK MARKET FORECASTING
 
 This small educational project was created during my studies in [ML/AI at Imperial College Business School](https://www.imperial.ac.uk/business-school/executive-education/technology-analytics-data-science/professional-certificate-machine-learning-and-artificial-intelligence-programme/online//). 
@@ -17,12 +15,16 @@ Besides the unpredictability of the short-term market, my second fundamental ass
 2. The forecast should be based on a combination of leading economic indicators and technical indicators of market prices
 
 Based on my experience, I decided to use a 20 day moving average of the market and use the gradient as the main indicator for forecasting:
+
 $$
-\text{MA}_{20} = \frac{1}{20} \sum_{i=0}^{19} \text{Price}_{t-i}
+MA_{20} = \frac{1}{20} \sum_{i=0}^{19} {Price}_{t-i}
 $$
+
 The predictor:
+
+
 $$
-\nabla \text{MA}_{20} = \frac{\text{MA}_{20}(\text{today} + 20) - \text{MA}_{20}(\text{today})}{\text{MA}_{20}(\text{today})}
+\nabla{MA_{20}} = \frac{MA_{20}(today+20)-MA_{20}(today)}{MA_{20}(today)}
 $$
 
 For clarity, I have provided a picture below of the broad index Sp500 of American stocks, where the blue color shows the Moving Average and the red line shows the gradient that I am going to predict:
@@ -63,7 +65,10 @@ I used two good sources of data which is publicly available:
 2. [Yahoo Finance](https://finance.yahoo.com) is the well known publicly available source of stocks, indexes and commodities, supported by Yahoo Inc. The data is accessible in Python through [yfinance API module](https://pypi.org/project/yfinance/)
 
 The data was downloaded from different sources and jointed by time index. Since economic indicators are released with less frequency than price, the  last known reading for that day was used. In this way, it was possible to obtain a large array of data for each trading day for the last 32 years from 1992-02-03 to 2024-07-01. Some of the metrics were normalized to make them stationary and suitable for machine learning like price normalization:
-$$ pr\_0 = \frac {Price_{today} - MA_{20}}{MA_{20}} $$
+
+$$
+pr_0 = \frac {Price_{today} - MA_{20}}{MA_{20}} 
+$$
 
 The testing and training data split is ususally as 80% to 20%. The data were checked on multicolinearity via variance inflation factor. In result some indicators was not accepted in dataset.
 
