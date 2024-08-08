@@ -15,9 +15,13 @@ Besides the unpredictability of the short-term market, my second fundamental ass
 2. The forecast should be based on a combination of leading economic indicators and technical indicators of market prices
 
 Based on my experience, I decided to use a 20 day moving average of the market and use the gradient as the main indicator for forecasting:
-$ {MA}_{20} = \frac{1}{20}\sum_{i=0}^{19} Price_{t-i} $
+$$
+\text{MA}_{20} = \frac{1}{20} \sum_{i=0}^{19} \text{Price}_{t-i}
+$$
 The predictor:
-$$ \nabla {MA}_{20} = \frac{MA_{20}(today + 20) - MA_{20}(today)}{MA_{20}(today)} $$
+$$
+\nabla \text{MA}_{20} = \frac{\text{MA}_{20}(\text{today} + 20) - \text{MA}_{20}(\text{today})}{\text{MA}_{20}(\text{today})}
+$$
 
 For clarity, I have provided a picture below of the broad index Sp500 of American stocks, where the blue color shows the Moving Average and the red line shows the gradient that I am going to predict:
 
