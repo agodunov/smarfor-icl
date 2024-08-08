@@ -36,7 +36,7 @@ Since many models for market forecasting are not accurate, I will use another si
 For more technical details, read the code itself with comments and pictures. I chose to implement Pandas dataframe and save data in excel which I find convenient for the data analysis.
 
 ### Here I must make one important disclaimer: 
-The data I use from the Federal Treasury is delayed by a month or two, depending from the source. Therefore, this solution is not suitable for speculating on the stock market. At the very least, you need to access the most current data, which requires a paid subscription. That's why, in reality, the question of project will sound a bit different: **Is it possible to predict market behaviour in the medium term using economic data and trade indicators?**
+The data I use from the Federal Treasury is delayed by a month or two, depending from the source. Therefore, this solution is not suitable for speculating on the stock market. At the very least, you need to access the most current data, which requires a paid subscription. That's why, in reality, the question for the project will sound a bit different: **Is it possible to predict market behaviour in the medium term using economic data and trade indicators?**
 
 This concludes the general overview of the project. 
 
