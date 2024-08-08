@@ -76,7 +76,10 @@ The testing and training data split is usually as 80% to 20%. The data were chec
 All models accept the dataset.xlsx wich stores Pandas dataframe with 30 features from economic and stock indicators and two last columns with predictors: the future gradient of 20 days price moving average and the sign of this gradient. The same file can be used for classification or regression modelling. As a training exercise, I had to pickup three models from the program I studied, so my choice was the following:
 1. **Logictic Regeression**. This is the most simple model implemented using LogisticRegression class from sklearn python module. The model is simple and I pick it up to get the result as quickly as possible. The module return the result_lr.xlsx with the last column "Prediction" and values +1 or -1 which simply means the direction of the market. The model tries to improve generalization via regularization constant but it seems not required. 
 2. **Decision Tree** - I pickup this model because of transparency, explainability and flexibility. It returns the forecasted direction of market +1 and -1, tries different depths but most importantly provides the analysis and insight which features contribute the most into the prediction.
-3. **Neural Network** - I pickup the fully connected Neural Network as the most advanced model although with less transparency. It requires pytorch module to be installed in Python and it uses GPU to speed up the calculations. The Neural Network has the architecture  of 4 layers with the following activation functions: $$ ReLU - Sigmoid - Sigmoid - Sigmoid $$ 
+3. **Neural Network** - I pickup the fully connected Neural Network as the most advanced model although with less transparency. It requires pytorch module to be installed in Python and it uses GPU to speed up the calculations. The Neural Network has the architecture  of 4 layers with the following activation functions:
+
+$$ ReLU - Sigmoid - Sigmoid - Sigmoid $$ 
+
 The number of 28-27-22-19 neurons was selected in the result of Bayesian Optimization of hyperparameters. The model calculates the loss function as L2 norm of forecasted ${MA}_{20}$ gradient, because it allows a more granular fine-tuning than Accuracy. The Accuracy is calculated for the optimized model just to compare with previous models.
 
 ## HYPERPARAMETER OPTIMISATION
