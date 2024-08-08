@@ -80,7 +80,7 @@ All models accept the dataset.xlsx wich stores Pandas dataframe with 30 features
 2. **Decision Tree** - I pickup this model because of transparency, explainability and flexibility. It returns the forecasted direction of market +1 and -1, tries different depths but most importantly provides the analysis and insight which features contribute the most into the prediction.
 3. **Neural Network** - I pickup the fully connected Neural Network as the most advanced model although with less transparency. It requires pytorch module to be installed in Python and it uses GPU to speed up the calculations. The Neural Network has the architecture  of 4 layers with the following activation functions:
 
-$$ ReLU - Sigmoid - Sigmoid - Sigmoid $$ 
+$$ReLU - Sigmoid - Sigmoid - Sigmoid$$
 
 The number of 28-27-22-19 neurons was selected in the result of Bayesian Optimization of hyperparameters. The model calculates the loss function as L2 norm of forecasted ${MA}_{20}$ gradient, because it allows a more granular fine-tuning than Accuracy. The Accuracy is calculated for the optimized model just to compare with previous models.
 
@@ -123,7 +123,7 @@ The emulation result showed that this strategy, based on the neural network fore
 * This code is not for trading due to lack of last month data in FRED database
 * You have to use python 3.8 due to compatibility issue with FRED API
 * The LR and NN models are sensitive to the scaling of features, therefore if the market reveals an unusual pattern then the performance might be worse than expected.
-* The result is too good so it should be necessary to investigate if it was a leakage of information from future, during revisions of past economic  indicators by the government.
+* It should be necessary to investigate if it was a leakage of information from future, during revisions of past economic  indicators by the government.
 
 ## CONTACT
 Get connected with me via [linkedin profile](http://www.linkedin.com/in/andrey-godunov) if you wish to discuss the implementation of real trading algorithm.
