@@ -31,7 +31,7 @@ For clarity, I have provided a picture below of the broad index Sp500 of America
 
 ![This is a 20 days Moving Average](images/20ma.png)
 
-Since many models for market forecasting are not accurate, I will use another simple indicator of Accuracy - the percentage of times the model guess the direction of the market movement correctly. The Accuracy is calculated by comparing the sign of the MA20 gradient with the real market and from the point of view of machine learning is a common classification metric.
+Since many models for market forecasting are not accurate, I will use another simple indicator of Accuracy - the percentage of times the model guess the direction of the market movement correctly. The Accuracy is calculated by comparing the sign of the MA20 gradient with the prediction and from the point of view of machine learning is a common classification metric.
 
 For more technical details, read the code itself with comments and pictures. I chose to implement Pandas dataframe and save data in excel which I find convenient for the data analysis.
 
