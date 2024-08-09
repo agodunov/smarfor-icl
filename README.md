@@ -113,7 +113,7 @@ The neural network with the optimal architecture 28-27-22-19 shows an incredibly
 ### Trading 
 It is good that the model can guess the direction of the market, but it would be interesting to know how much could potentially be earned by using the model for a trading strategy. To simulate trading on the stock market, fairly conservative assumptions were made: 
 * If the model predicts a market decline, then long positions are sold, and short positions are opened the next morning at the opening price minus 1% for commissions and price slippage.
-* Accordingly, the vice versa: if a signal predicts the market rise then short positions are closed and stocks are bought on the next day early morning at the opening price minus 1% for commissions and price slippage.
+* Accordingly, the vice versa: if a signal predicts the market rise then short positions are closed and stocks are bought on the next day early morning at the opening price plus 1% for commissions and price slippage.
 
 The emulation result showed that this strategy, based on the neural network forecast, has an average return of 28% per annum over the past 32 years, which is higher than known results from famous investors in the US market.
 
