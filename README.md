@@ -108,7 +108,7 @@ These are very much Leading Economic Indicators used by research from Conference
 
 ### Neural Network 
 
-The neural network with the optimal architecture 28-27-22-19 shows an incredibly good result: on training data, the accuracy was 98%, and the accuracy of market prediction on test data was 95.1%, which indirectly indicates that the neural network has good generalizability and phenomenally high forecasting accuracy. The forecast results of this network were used to emulate trading.
+The neural network with the optimal architecture 28-27-22-19 shows an incredibly good result: on training data, the accuracy was 98%, and the accuracy of market prediction on test data was 95%, which indirectly indicates that the neural network has good generalizability and phenomenally high forecasting accuracy. The forecast results of this network were used to emulate trading.
 
 ### Trading 
 It is good that the model can guess the direction of the market, but it would be interesting to know how much could potentially be earned by using the model for a trading strategy. To simulate trading on the stock market, fairly conservative assumptions were made: 
