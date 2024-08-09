@@ -40,8 +40,6 @@ The data I use from the US Federal Reserve Database is intentionally delayed by 
 
 **What is the accuracy of the medium-term forecasting of the stock market direction based on economic data and trading indicators?**
 
-This concludes the general overview of the project. 
-
 ## FILES
 The directory contains the following files:
 * create_dataset.ipynb - The Jupyter Notebook script is used to create a main dataset and auxilirary data files. It should be run once at the begining when dataset does not exists.
