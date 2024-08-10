@@ -38,7 +38,7 @@ For more technical details, read the code itself with comments and pictures. I c
 ### Here I must make one important disclaimer: 
 The data I use from the US Federal Reserve Database is intentionally delayed by a month or two, depending from the source. Therefore, this solution is not suitable for speculating on the stock market. At the very least, you need to access the most current data, which requires a paid subscription. That's why, in essence, the goal of the project is only to answer the following question:
 
-**What is the accuracy of the medium-term forecasting of the stock market direction based on economic data and trading indicators?**
+**What is the possible accuracy of the medium-term forecasting of the stock market direction based on combination of economic data and trading indicators?**
 
 ## FILES
 The directory contains the following files:
