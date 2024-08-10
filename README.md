@@ -14,7 +14,7 @@ Besides the unpredictability of the short-term market, my second fundamental ass
 1. The stock market forecast should be medium-term
 2. The forecast should be based on a combination of leading economic indicators and technical indicators of market prices
 
-For a medium-term forecast, it is reasonable to use the average value of the stock index price over several days, which allows to reduce the random component and better detect patterns. Based on my experience, I decided to use a 20 day moving average of the market and use the gradient as the main indicator for forecasting:
+For a medium-term forecast, it is reasonable to use the average value of the stock index over several days, which allows to reduce the random component and better detect patterns. Based on my experience, I decided to use a 20 day moving average of the market price and use the gradient as the main indicator for forecasting:
 
 $$
 MA_{20} = \frac{1}{20} \sum_{i=0}^{19} {Price}_{t-i}
