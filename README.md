@@ -119,6 +119,8 @@ The emulation result showed that this strategy, based on the neural network fore
 
 **The conducted research allows me to state that based on stock trading indicators and timely receipt of leading economic indicators, it is possible to predict stock market movements with an accuracy of up to 95%.**
 
+The timeliness and accuracy of receiving leading economic indicators from the US government is not always enough to maintain a competitive edge, so it makes sense for large funds or hedge funds to invest in their own research to ensure a competitive advantage and earn extra income in the stock market.
+
 ## KNOWN LIMITATIONS
 * This code is not for trading due to lack of last month data in FRED database
 * You have to use python 3.8 due to compatibility issue with FRED API
