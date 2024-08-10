@@ -117,7 +117,7 @@ It is good that the model can guess the direction of the market, but it would be
 
 The emulation result showed that this strategy, based on the neural network forecast, has an average return of 28% per annum over the past 32 years, which is higher than known results from famous investors in the US market.
 
-**The conducted research allows me to state that based on stock trading indicators and timely receipt of leading economic indicators, it is possible to predict stock market movements with an accuracy of up to 95%.**
+**The conducted research allows me to state that based on stock trading data and timely receipt of leading economic indicators, it is possible to predict stock market movements with an accuracy of up to 95%.**
 
 The timeliness and accuracy of receiving leading economic indicators from the US government is not always enough to maintain a competitive edge, so it makes sense for large funds or hedge funds to invest in their own research to ensure a competitive advantage and earn extra income in the stock market.
 
