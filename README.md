@@ -117,15 +117,16 @@ It is good that the model can guess the direction of the market, but it would be
 
 The emulation result showed that this strategy, based on the neural network forecast, has an average return of 28% per annum over the past 32 years, which is higher than known results from famous investors in the US market.
 
-**The conducted research allows me to state that based on stock trading data and timely receipt of leading economic indicators, it is possible to predict stock market movements with an accuracy of up to 95%.**
-
-The timely and accurate leading economic indicators are an important insight that allows investors to stay ahead of their competitors in the stock market. Therefore, it makes sense for large active fund managers to invest in their own research to ensure an edge in the stock market.
-
 ## KNOWN LIMITATIONS
 * This code is not for trading due to lack of last month data in FRED database
 * You have to use python 3.8 due to compatibility issue with FRED API
 * The LR and NN models are sensitive to the scaling of features, therefore if the market reveals an unusual pattern then the performance might be worse than expected.
 * It should be necessary to investigate if it was a leakage of information from future, during revisions of past economic  indicators by the government.
+
+## CONCLUSION
+**The conducted research shows that based on stock trading data and timely receipt of leading economic indicators, it is possible to predict stock market movements with an accuracy of up to 95%.**
+
+The timely and accurate leading economic indicators are the important insight that allows investors to stay ahead of their competitors in the stock market. Therefore, it makes sense for large active fund managers to invest in their own research to ensure an edge in the stock market.
 
 ## CONTACT
 Get connected with me via [linkedin profile](http://www.linkedin.com/in/andrey-godunov) if you wish to discuss the implementation of real trading algorithm.
