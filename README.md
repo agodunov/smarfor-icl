@@ -126,7 +126,7 @@ The emulation result showed that this strategy, based on the neural network fore
 ## CONCLUSION
 **The conducted research shows that based on stock trading data and timely receipt of leading economic indicators, it is possible to predict stock market movements with an accuracy of up to 95%.**
 
-The timely and accurate leading economic indicators are the important insight that allows investors to stay ahead of their competitors in the stock market. Therefore, it makes sense for large active fund managers to invest in their own research to ensure an edge in the stock market.
+Timely and accurate leading economic indicators are important insight that allow investors to outperform their peers in the stock market. So it makes sense for large active fund managers to invest in their own research rather than rely on government statistics to gain the edge.
 
 ## CONTACT
 Get connected with me via [linkedin profile](http://www.linkedin.com/in/andrey-godunov) if you wish to discuss the implementation of real trading algorithm.
