@@ -14,7 +14,7 @@ Besides the unpredictability of the short-term market, my second fundamental ass
 1. The stock market forecast should be medium-term
 2. The forecast should be based on a combination of leading economic indicators and technical indicators of market prices
 
-For a medium-term forecast, it is reasonable to use the average value of the stock index over several days, which allows to reduce the random component and better detect patterns. Based on my experience, I decided to use a 20 day moving average of the market price and use the gradient as the main indicator for forecasting:
+For a medium-term forecast, it is reasonable to use the average value of the stock index over several days, which allows to reduce the random component in price and better detect patterns. Based on my experience, I decided to use a 20 day moving average of the market price and use the gradient as the main indicator for forecasting:
 
 $$
 MA_{20} = \frac{1}{20} \sum_{i=0}^{19} {Price}_{t-i}
@@ -36,7 +36,7 @@ Since many models for market forecasting are not accurate, I will use another si
 For more technical details, read the code itself with comments and pictures. I chose to implement Pandas dataframe and save data in excel which I find convenient for the data analysis.
 
 ### Here I must make one important disclaimer: 
-The data I use from the US Federal Reserve Database is intentionally delayed by a month or two, depending from the source. Therefore, this solution is not suitable for speculating on the stock market. At the very least, you need to access the most current data, which requires a paid subscription. That's why, in essence, the goal of the project is only to answer the following question:
+Some of the data I use from the US Federal Reserve database intentionally does not show the last two months. Missing data can be obtained either through a paid subscription or from a source such as Consumer Sentiment from the University of Michigan. But because of this, this solution is not intended for real stock market speculation "As Is". That's why, in essence, the goal of the project is mostly academic to answer the following question:
 
 **What is the possible accuracy of the medium-term forecasting of the stock market direction based on combination of economic data and trading indicators?**
 
@@ -119,7 +119,7 @@ The emulation result showed that this strategy, based on the neural network fore
 
 **The conducted research allows me to state that based on stock trading data and timely receipt of leading economic indicators, it is possible to predict stock market movements with an accuracy of up to 95%.**
 
-The timeliness and accuracy of receiving leading economic indicators from the US government is not always enough to maintain a competitive edge, so it makes sense for large funds or hedge funds to invest in their own research to ensure a competitive advantage and earn extra income in the stock market.
+The timely and accurate leading economic indicators are an important insight that allows investors to stay ahead of their competitors in the stock market. Therefore, it makes sense for large active fund managers to invest in their own research to ensure an edge in the stock market.
 
 ## KNOWN LIMITATIONS
 * This code is not for trading due to lack of last month data in FRED database
