@@ -38,7 +38,7 @@ For more technical details, read the code itself with comments and pictures. I c
 ### Here I must make one important disclaimer: 
 Some of the data I use from the US Federal Reserve database intentionally does not show the last two months. Missing data can be obtained either through a paid subscription or from a source such as Consumer Sentiment from the University of Michigan. But because of this, this solution is not intended for real stock market speculation "As Is". That's why, in essence, the goal of the project is mostly academic to answer the following question:
 
-**What is the possible accuracy of the medium-term forecasting of the stock market direction based on combination of economic data and trading indicators?**
+**What is the possible accuracy of the medium-term forecasting of the stock market direction based on the combination of leading economic indicators and trading data?**
 
 ## FILES
 The directory contains the following files:
